@@ -7,8 +7,12 @@ name = input("Insert your name here ")
 #print function displays users input 
 print(name)
 
-#User is asked to insert their age. The users input is stored as a string in the variable 'age'
-age = input("Insert your age here ")
+#User is asked to insert their age.
+try:
+    age = int(input("Insert your age here: "))
+except ValueError:
+    print("Please enter a numeric value for age.")
 print(age)
+
 
 print('Hello World')
