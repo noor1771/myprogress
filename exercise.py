@@ -1,14 +1,14 @@
 # Display Fibonacci series up to 10 terms
-##a = 0
-#b = 1
-#sum = 0 
+a = 0
+b = 1
+sum = 0 
 
-#for i in range(0,10,1):
-    #print(a, end=" ")
-    #sum = a + b 
-    #a = b
-    #b = sum
-#print()
+for i in range(0,10,1):
+    print(a, end=" ")
+    sum = a + b 
+    a = b
+    b = sum
+print()
 
 #Exercise 15: Use a loop to display elements from a given list present at odd index positions
 
