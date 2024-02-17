@@ -1,6 +1,16 @@
 #T03 Control Structures - If, Elif, Else and the Boolean Data Type
 #Practical Task 1
 
+def get_user_age():
+    while True:
+        try:
+            age = int(input("Insert age here: "))
+            return age
+        except ValueError:
+            print("Please enter a valid integer for age.")
+
+age = get_user_age()
+
 #Using the input command the user is asked to insert their age. The user's age will be stored as a string in the variable 'age' as an integer.
 age = int(input("Insert age here "))
 #The user will see a different message depending on the age inputed.
